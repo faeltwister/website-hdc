@@ -18,3 +18,8 @@ site fictício de uma empresa chamada hdc
 
 ![alt text](https://github.com/faeltwister/website-hdc/blob/main/imagens%20do%20site/search-bar.png?raw=true)
 
+
+### Form & Footer-bar
+
+![alt text](https://github.com/faeltwister/website-hdc/blob/main/imagens%20do%20site/form-bar.png?raw=true)
+
