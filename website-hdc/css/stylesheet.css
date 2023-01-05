@@ -78,7 +78,7 @@ nav{
     background-position: center;
 }
 
-.main-banner h1,p{
+.main-banner h1, .main-banner p{
     color: whitesmoke;
     text-align: center;
     font-weight: bold;
