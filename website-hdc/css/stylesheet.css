@@ -68,3 +68,27 @@ nav{
     background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
+/*Main banner*/
+
+.main-banner{
+    background-image:url("../img/mainbanner.png");
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-banner h1,p{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
