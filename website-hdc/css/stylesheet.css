@@ -321,3 +321,70 @@ footer{
     color: rgb(255, 253, 253);
     padding: 10px;
 }
+
+/*Responsividade*/
+
+/*Small laptop apartir 1100px*/
+
+@media (max-width:1100px){
+    .plans-container{
+        width: 95%;
+    }
+    .plan{
+        margin: 0 5px
+    }
+
+}
+
+/*Tablet <  900px*/
+
+@media(max-width:900){
+    .main-banner{
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    html,body{
+        overflow-x: scroll;
+    }
+
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .main-banner p{
+        padding: 0 3rem;
+    }
+
+    .service-container ul{
+        flex-direction: column;
+    }
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .plan ul{
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
